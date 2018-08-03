@@ -1,25 +1,28 @@
+html {
+    background-color: white;
+}
+
 body {
     margin: auto;
     background-color: rgb(25, 184, 223);
-    width: 70%;
+    max-width: 768px;
 }
 
 .site-header {
-    display: inline-block;
     color: white;
     text-align: center;
     background-color: #00377B;
-    height: 70px;
+    height: 80px;
 }
 
-
-
-
-
-
-.contact-info {
-    float: right;
+.main-menu__links {
+    color: rgb(238, 234, 32);
 }
+
+.greeting {
+    text-align: center;
+}
+
 
 .flexcontainer {
     display: flex;
@@ -39,7 +42,7 @@ body {
     order: 1;
     flex-grow: 1;
     width: auto;
-    height: 50%;
+    height: 500px;
 }
 
 .aboutme {
@@ -47,10 +50,11 @@ body {
 
 }
 
-.Lola-me {
+.DanLola {
     order: 3;
     flex-grow: 3;
-    height: 50%;
+    height: 500px;
+    width: auto;
 }
 
 .aboutme2 {
@@ -58,3 +62,9 @@ body {
 
 }
 
+
+/* This is the end of index.html css */
+
+.contact-info {
+    float: right;
+}
