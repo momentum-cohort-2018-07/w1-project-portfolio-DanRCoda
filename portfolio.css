@@ -111,6 +111,7 @@ img {
 }
 
 
+
 /* This is the end of index.html css */
 /* This is the beginning of resume css */
 
@@ -118,7 +119,11 @@ img {
     float: right;
 }
 
-.resume {
+/* .resume {
     padding-left: 10px;
     padding-right: 10px;
+} */
+
+.full-resume {
+    margin: 10px;
 }
