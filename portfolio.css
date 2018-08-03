@@ -15,6 +15,7 @@ body {
     border: solid black 1px;
     /* display: inline-flex; */
     /* width: auto; */
+    height: 100px;
     
 }
 .site-logo {
@@ -31,17 +32,18 @@ body {
     /* float: left; */
     text-align: center;
     width: 100%;
-    
 }
 
 .main-menu__links {
     padding: 25px;
     display: inline-block;
+    height: 50px;
 }
 
 .main-menu__links a {
     color: white;
     text-decoration: none;
+    font-size: 200%;
 }
 
 .main-menu__links--Home {
@@ -68,7 +70,7 @@ body {
 }
 
 
-.flexcontainer {
+.container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -78,15 +80,18 @@ body {
 }
 
 .flexitem {
-    width: 600px;
+    width: 100%x;
     padding: 30px;
 }
 
+img {
+    max-width: 75%;
+    max-height: 75%;
+
+}
 .dan {
     order: 1;
     flex-grow: 1;
-    width: auto;
-    height: 500px;
 }
 
 .aboutme {
@@ -97,8 +102,7 @@ body {
 .DanLola {
     order: 3;
     flex-grow: 3;
-    height: 500px;
-    width: auto;
+    max-width: 50%;
 }
 
 .aboutme2 {
@@ -108,7 +112,13 @@ body {
 
 
 /* This is the end of index.html css */
+/* This is the beginning of resume css */
 
 .contact-info {
     float: right;
+}
+
+.resume {
+    padding-left: 10px;
+    padding-right: 10px;
 }
