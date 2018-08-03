@@ -1,0 +1,60 @@
+body {
+    margin: auto;
+    background-color: rgb(25, 184, 223);
+    width: 70%;
+}
+
+.site-header {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    background-color: #00377B;
+    height: 70px;
+}
+
+
+
+
+
+
+.contact-info {
+    float: right;
+}
+
+.flexcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    align-items: flex-end;
+    box-sizing: border-box;  
+}
+
+.flexitem {
+    width: 600px;
+    padding: 30px;
+}
+
+.dan {
+    order: 1;
+    flex-grow: 1;
+    width: auto;
+    height: 50%;
+}
+
+.aboutme {
+    order: 2;
+
+}
+
+.Lola-me {
+    order: 3;
+    flex-grow: 3;
+    height: 50%;
+}
+
+.aboutme2 {
+    order: 4;
+
+}
+
