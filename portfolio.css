@@ -11,14 +11,58 @@ body {
 .site-header {
     color: white;
     text-align: center;
-    background-color: #00377B;
-    height: 80px;
+    background-color: rgb(169, 184, 183);
+    border: solid black 1px;
+    /* display: inline-flex; */
+    /* width: auto; */
+    
+}
+.site-logo {
+    text-align: center;
+}
+
+.nav-menu {
+    display: inline-block;
+    
+}
+
+.main-menu {
+    color: rgb(238, 234, 32);
+    /* float: left; */
+    text-align: center;
+    width: 100%;
+    
 }
 
 .main-menu__links {
-    color: rgb(238, 234, 32);
+    padding: 25px;
+    display: inline-block;
 }
 
+.main-menu__links a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-menu__links--Home {
+    width: 150px;
+    background: linear-gradient(rgba(30, 9, 110, 0.3),rgba(30, 9, 110, 0.3)),
+    no-repeat center/cover url(/Users/dancoda/Desktop/Momentum/w1-project-portfolio-DanRCoda/DanMary.jpg)
+}
+
+.main-menu__links--Portfolio {
+    width: 150px;
+    background: linear-gradient(rgba(30, 9, 110, 0.3),rgba(30, 9, 110, 0.3)),
+    no-repeat center/cover url(/Users/dancoda/Desktop/Momentum/w1-project-portfolio-DanRCoda/Lola-me.jpg)
+}
+
+
+
+.main-menu__links--Resume {
+    width: 150px;
+    background: linear-gradient(rgba(30, 9, 110, 0.3),rgba(30, 9, 110, 0.3)),
+    no-repeat center/cover url(/Users/dancoda/Desktop/Momentum/w1-project-portfolio-DanRCoda/Dan.jpg)
+}
 .greeting {
     text-align: center;
 }
