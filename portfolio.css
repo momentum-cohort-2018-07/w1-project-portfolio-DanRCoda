@@ -127,3 +127,14 @@ img {
 .full-resume {
     margin: 10px;
 }
+
+@media screen and (min-width: 768px) {
+    body {
+      background-color: rgb(25, 184, 223);
+    }
+  }
+  @media screen and (max-width: 960px) {
+      .main-menu {display: ;}
+      
+
+  }
