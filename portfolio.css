@@ -188,4 +188,25 @@ width: 100%;
     }}
 
 
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    background-color: aliceblue;
+    align-content: center;
+
+
+}
+.projects__GardenSite {
+    margin-bottom: 10px;
+    margin-right: 30px;
+    width: 48%;
+    order: 1;
+ 
+}
+
+.projects__DogAdoption {
+    width: 48%;
+    order: 2;
+}
  
