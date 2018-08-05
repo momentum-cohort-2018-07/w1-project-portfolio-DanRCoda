@@ -6,12 +6,13 @@ body {
     margin: auto;
     background-color: rgb(25, 184, 223);
     /* max-width: 768px; */
-    height: 50%;
+    height: 48%;
 }
 
 .site-header {
     color: white;
     text-align: center;
+    padding: 20px;
     background-color: rgb(169, 184, 183);
     border: solid black 1px;
     /* display: inline-flex; */
@@ -30,45 +31,26 @@ body {
     
 }
 
-.main-menu {
+/* .main-menu {
     color: rgb(238, 234, 32);
-    /* float: left; */
     text-align: center;
     width: 100%;
-}
+} */
 
 .main-menu__links {
-    padding: 25px;
+    /* padding: 25px; */
     display: inline-block;
     height: 50px;
 }
 
 .main-menu__links a {
-    color: white;
+    color: whitesmoke;
     text-decoration: none;
-    font-size: 100%;
+    /* font-size: 115%; */
+    background-color: black;
+    /* margin: 10px; */
 }
 
-
-
-/* .main-menu__links--Home {
-    width: 100px;
-    background: linear-gradient(rgba(30, 9, 110, 0.3),rgba(30, 9, 110, 0.3)),
-    no-repeat center/cover url(/Users/dancoda/Desktop/Momentum/w1-project-portfolio-DanRCoda/DanMary.jpg)
-}
-
-.main-menu__links--Portfolio {
-    width: 100px;
-    background: linear-gradient(rgba(30, 9, 110, 0.3),rgba(30, 9, 110, 0.3)),
-    no-repeat center/cover url(/Users/dancoda/Desktop/Momentum/w1-project-portfolio-DanRCoda/Lola-me.jpg)
-}
-
-
-.main-menu__links--Resume {
-    width: 100px;
-    background: linear-gradient(rgba(30, 9, 110, 0.3),rgba(30, 9, 110, 0.3)),
-    no-repeat center/cover url(/Users/dancoda/Desktop/Momentum/w1-project-portfolio-DanRCoda/Dan.jpg)
-} */
 .greeting {
     text-align: center;
 }
@@ -79,6 +61,7 @@ body {
     justify-content: space-evenly;
     /* align-content: flex-start; */
     box-sizing: border-box;
+    margin: 10px;
 }
 
 img {
@@ -91,49 +74,34 @@ width: 100%;
 }
 
 .about-me__Dan {
-    width: 38%;
+    width: 48%;
     order: 1; 
 }
 
 .about-me__text {
     order: 2;
-    width: 40%;
+    width: 48%;
 }
 
 .about-me__text2 {
     order: 4;
-    width: 40%;
+    width: 48%;
 }
 
 .about-me__DanLola {
-    width: 28%;
+    width: 48%;
     order: 3;
 }
 
 
 
-/* This is the end of index.html css */
-/* This is the beginning of resume css */
-
-.contact-info {
-    float: right;
-}
-
-/* .resume {
-    padding-left: 10px;
-    padding-right: 10px;
-} */
-
-.full-resume {
-    margin: 10px;
-}
-
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
     .container {
-    background-color: rgb(25, 184, 223);
+    background-color: aliceblue;
     flex-direction: column;
+    align-items: center;
     }
-    }
+
 @media screen and (min-width: 768px) {
     .container {
         background-color: aliceblue;} 
@@ -145,7 +113,79 @@ width: 100%;
             order: 3;}
         .about-me__DanLola {
             order: 4;}
+    }
 
-    }}
+/* This is the end of index.html css */
+/* This is the beginning of resume css */
+
+/* .contact-info {
+    align-items: right;
+} */
+
+/* .resume {
+    padding-left: 10px;
+    padding-right: 10px;
+} */
+
+.full-resume {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+    margin: 10px;
+}
+
+.education {
+    border: solid black 1px;
+    background-color: grey;
+    margin-bottom: 10px;
+    order: 1;
+    width: 75%;
+}
+
+.tagline-list {
+    border: solid black 1px;
+    background-color: grey;
+    margin-bottom: 10px;
+    width: 75%;
+    order: 2;
+}
+
+.resume-body__Bronto {
+    border: solid black 1px;
+    background-color: gray;
+    margin-bottom: 10px;
+    order: 3;
+    width: 75%;
+    }
+
+.resume-body__TGC {
+    border: solid black 1px;
+    background-color: grey;
+    order: 4;
+    width: 75%;
+    }
+
+@media screen and (max-width: 768px) {
+    .full-resume {
+    background-color: aliceblue;
+    flex-direction: column;
+    align-items: center;
+    }
+
+@media screen and (min-width: 768px) {
+ .full-resume {
+        background-color: aliceblue;} 
+ .education {
+            order: 1;}
+ .tagline-list {
+            order: 2;}
+ .resume-body__Bronto {
+            order: 3;}
+ .resume-body__TGC {
+            order: 4;}
+    }
 
 
+ 
