@@ -5,7 +5,7 @@ html {
 body {
     margin: auto;
     background-color: rgb(25, 184, 223);
-    max-width: 768px;
+    /* max-width: 768px; */
     height: 50%;
 }
 
@@ -16,7 +16,9 @@ body {
     border: solid black 1px;
     /* display: inline-flex; */
     /* width: auto; */
-    height: 100px;
+    height: 50px;
+    background: linear-gradient(rgba(30, 9, 110, 0.3),rgba(30, 9, 110, 0.3)),
+    no-repeat center/cover url(/Users/dancoda/Desktop/Momentum/w1-project-portfolio-DanRCoda/DanMary.jpg)
     
 }
 .site-logo {
@@ -44,27 +46,29 @@ body {
 .main-menu__links a {
     color: white;
     text-decoration: none;
-    font-size: 200%;
+    font-size: 100%;
 }
 
-.main-menu__links--Home {
-    width: 150px;
+
+
+/* .main-menu__links--Home {
+    width: 100px;
     background: linear-gradient(rgba(30, 9, 110, 0.3),rgba(30, 9, 110, 0.3)),
     no-repeat center/cover url(/Users/dancoda/Desktop/Momentum/w1-project-portfolio-DanRCoda/DanMary.jpg)
 }
 
 .main-menu__links--Portfolio {
-    width: 150px;
+    width: 100px;
     background: linear-gradient(rgba(30, 9, 110, 0.3),rgba(30, 9, 110, 0.3)),
     no-repeat center/cover url(/Users/dancoda/Desktop/Momentum/w1-project-portfolio-DanRCoda/Lola-me.jpg)
 }
 
 
 .main-menu__links--Resume {
-    width: 150px;
+    width: 100px;
     background: linear-gradient(rgba(30, 9, 110, 0.3),rgba(30, 9, 110, 0.3)),
     no-repeat center/cover url(/Users/dancoda/Desktop/Momentum/w1-project-portfolio-DanRCoda/Dan.jpg)
-}
+} */
 .greeting {
     text-align: center;
 }
@@ -87,22 +91,22 @@ width: 100%;
 }
 
 .about-me__Dan {
-    width: 48%;
+    width: 38%;
     order: 1; 
 }
 
 .about-me__text {
     order: 2;
-    width: 35%;
+    width: 40%;
 }
 
 .about-me__text2 {
     order: 4;
-    width: 35%;
+    width: 40%;
 }
 
 .about-me__DanLola {
-    width: 48%;
+    width: 28%;
     order: 3;
 }
 
@@ -124,20 +128,24 @@ width: 100%;
     margin: 10px;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 425px) {
     .container {
-      background-color: rgb(25, 184, 223);
-    }}
-@media screen and (min-width: 1024px) {
+    background-color: rgb(25, 184, 223);
+    flex-direction: column;
+    }
+    }
+@media screen and (min-width: 768px) {
     .container {
-        background-color: aliceblue; {
-        .about-me__Dan: {
-            order: 1;
-        .about-me__text: {
-            order: 2;
-        .about-me__text2: {
-            order: 3;
-        .about-me__DanLola: {
-            order: 4; 
+        background-color: aliceblue;} 
+        .about-me__Dan {
+            order: 1;}
+        .about-me__text {
+            order: 2;}
+        .about-me__text2 {
+            order: 3;}
+        .about-me__DanLola {
+            order: 4;}
+
     }}
+
 
