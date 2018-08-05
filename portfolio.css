@@ -75,7 +75,7 @@ width: 100%;
 
 .about-me__Dan {
     width: 48%;
-    order: 1; 
+    order: 1;
 }
 
 .about-me__text {
@@ -93,7 +93,9 @@ width: 100%;
     order: 3;
 }
 
-
+p {
+    line-height: 2rem;
+}
 
 @media screen and (max-width: 768px) {
     .container {
@@ -134,11 +136,12 @@ width: 100%;
     justify-content: space-evenly;
     background-color: aliceblue;
     margin: 10px;
+    box-sizing: border-box;
 }
 
 .education {
     border: solid black 1px;
-    background-color: grey;
+    background-color: rgb(190, 188, 188);
     margin-bottom: 10px;
     order: 1;
     width: 75%;
@@ -146,7 +149,7 @@ width: 100%;
 
 .tagline-list {
     border: solid black 1px;
-    background-color: grey;
+    background-color: rgb(190, 188, 188);
     margin-bottom: 10px;
     width: 75%;
     order: 2;
@@ -154,7 +157,7 @@ width: 100%;
 
 .resume-body__Bronto {
     border: solid black 1px;
-    background-color: gray;
+    background-color: rgb(190, 188, 188);
     margin-bottom: 10px;
     order: 3;
     width: 75%;
@@ -162,7 +165,7 @@ width: 100%;
 
 .resume-body__TGC {
     border: solid black 1px;
-    background-color: grey;
+    background-color: rgb(190, 188, 188);
     order: 4;
     width: 75%;
     }
