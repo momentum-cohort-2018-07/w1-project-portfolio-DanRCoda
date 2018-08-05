@@ -46,9 +46,9 @@ body {
 .main-menu__links a {
     color: whitesmoke;
     text-decoration: none;
-    /* font-size: 115%; */
+    font-size: 115%;
     background-color: black;
-    /* margin: 10px; */
+    margin: 10px;
 }
 
 .greeting {
@@ -68,10 +68,10 @@ img {
 width: 100%;
 }
 
-.flexitem {
+/* .flexitem {
     width: 100%x;
     padding: 30px;
-}
+} */
 
 .about-me__Dan {
     width: 48%;
@@ -101,7 +101,7 @@ width: 100%;
     flex-direction: column;
     align-items: center;
     }
-
+}
 @media screen and (min-width: 768px) {
     .container {
         background-color: aliceblue;} 
@@ -177,15 +177,15 @@ width: 100%;
 @media screen and (min-width: 768px) {
  .full-resume {
         background-color: aliceblue;} 
- .education {
+ /* .education {
             order: 1;}
  .tagline-list {
             order: 2;}
  .resume-body__Bronto {
             order: 3;}
  .resume-body__TGC {
-            order: 4;}
-    }
+            order: 4;} */
+    }}
 
 
  
